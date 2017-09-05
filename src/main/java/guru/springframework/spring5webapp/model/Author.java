@@ -23,7 +23,7 @@ public class Author {
 
 
 //    // Define Mapping Type
-//    @ManyToMany(mappedBy = "authors")
+    @ManyToMany
     private Set<Book> books  = new HashSet<>();
 
 
